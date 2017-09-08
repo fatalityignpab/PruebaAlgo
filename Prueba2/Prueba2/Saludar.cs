@@ -17,9 +17,9 @@ namespace Prueba2
             InitializeComponent();
         }
 
-        public void Saludar()
+        private void daClick(object sender, EventArgs e)
         {
-            
+            lblHola.Text = "Hola mundo";
         }
     }
 }

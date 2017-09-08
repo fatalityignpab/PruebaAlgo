@@ -50,6 +50,7 @@
             this.btnApretar.TabIndex = 1;
             this.btnApretar.Text = "Aprietame";
             this.btnApretar.UseVisualStyleBackColor = true;
+            this.btnApretar.Click += new System.EventHandler(this.daClick);
             // 
             // Form1
             // 
